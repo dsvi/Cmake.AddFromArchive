@@ -28,10 +28,10 @@ add_from_archive(extlibs/protobuf-3.19.6.7z cmake)
 
 ## Usage
 
-Download the `AddFromArchive.cmake`
+Download the `AddFromArchive.cmake` into `cmake` subdirectory of your project root
 
 ```bash
-mkdir -p cmake && wget -O cmake/AddFromArchive.cmake "https://gitlab.com/44100Hz/cmake.addfromarchive/-/raw/main/AddFromArchive.cmake?ref_type=heads&inline=false"
+mkdir -p cmake && wget -O cmake/AddFromArchive.cmake "https://raw.githubusercontent.com/dsvi/Cmake.AddFromArchive/refs/heads/main/AddFromArchive.cmake"
 ```
 
 And include it into your `CMakeLists.txt` by
